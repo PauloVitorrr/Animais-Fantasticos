@@ -47,5 +47,15 @@ body{
 }
 
 .grid-section{
-    grid-column: 2 / 4 ;
+    grid-column: 2 / 4;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 90px 300px 1fr;
+    margin-bottom: 4rem; 
+}
+
+.titulo{
+    font-family: 'Playfair Display SC', georgia;
 }
